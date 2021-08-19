@@ -2191,7 +2191,6 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <part name="IC4" library="SamacSys_Parts" deviceset="CY8C5888LTI-LP097" device=""/>
 <part name="R4" library="SamacSys_Parts" deviceset="ERJ-UP3F1000V" device="" value="1k"/>
 <part name="R8" library="SamacSys_Parts" deviceset="ERJ-UP3F1000V" device="" value="1k"/>
-<part name="R10" library="SamacSys_Parts" deviceset="ERJ-UP3F1000V" device="" value="1k"/>
 <part name="J4" library="282836-2" deviceset="282836-2" device=""/>
 <part name="R3" library="SamacSys_Parts" deviceset="ERJ-UP3F1000V" device="" value="1k"/>
 <part name="R5" library="SamacSys_Parts" deviceset="ERJ-UP3F1000V" device="" value="1k"/>
@@ -2374,7 +2373,6 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 </instance>
 <instance part="R4" gate="G$1" x="147.32" y="-106.68" smashed="yes" rot="R90"/>
 <instance part="R8" gate="G$1" x="157.48" y="-106.68" smashed="yes" rot="R90"/>
-<instance part="R10" gate="G$1" x="71.12" y="-17.78" smashed="yes" rot="R90"/>
 <instance part="J4" gate="G$1" x="411.48" y="-162.56" smashed="yes" rot="MR0">
 <attribute name="NAME" x="412.752359375" y="-156.707159375" size="1.017890625" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="412.497990625" y="-167.140940625" size="1.017990625" layer="96" rot="MR0"/>
@@ -2944,13 +2942,6 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <label x="182.88" y="-124.46" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="MOTOR_CURRENT" class="0">
-<segment>
-<pinref part="R10" gate="G$1" pin="2"/>
-<wire x1="71.12" y1="0" x2="71.12" y2="2.54" width="0.1524" layer="91"/>
-<label x="71.12" y="2.54" size="1.778" layer="95" rot="R90"/>
-</segment>
-</net>
 <net name="RX_JETSON" class="0">
 <segment>
 <pinref part="C8" gate="G$1" pin="2"/>
@@ -3392,13 +3383,6 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <pinref part="R15" gate="G$1" pin="1"/>
 <pinref part="Q2" gate="G$1" pin="G"/>
 <wire x1="208.28" y1="-195.58" x2="220.98" y2="-195.58" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$5" class="0">
-<segment>
-<pinref part="R10" gate="G$1" pin="1"/>
-<pinref part="IC4" gate="G$1" pin="P0[6]_(GPIO,_IDAC0)"/>
-<wire x1="71.12" y1="-17.78" x2="71.12" y2="-22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
