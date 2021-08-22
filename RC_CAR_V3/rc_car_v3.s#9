@@ -570,6 +570,23 @@
 <wire x1="6.95" y1="1.65" x2="6.95" y2="-1.65" width="0.1" layer="21"/>
 <wire x1="6.95" y1="-1.65" x2="4.5" y2="-1.65" width="0.1" layer="21"/>
 </package>
+<package name="RESC6667X87N">
+<description>&lt;b&gt;PCS2728DR0250ET&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-2.85" y="0" dx="6.95" dy="1.9" layer="1" rot="R90"/>
+<smd name="2" x="2.85" y="0" dx="6.95" dy="1.9" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-4.05" y1="3.75" x2="4.05" y2="3.75" width="0.05" layer="51"/>
+<wire x1="4.05" y1="3.75" x2="4.05" y2="-3.75" width="0.05" layer="51"/>
+<wire x1="4.05" y1="-3.75" x2="-4.05" y2="-3.75" width="0.05" layer="51"/>
+<wire x1="-4.05" y1="-3.75" x2="-4.05" y2="3.75" width="0.05" layer="51"/>
+<wire x1="-3.3" y1="3.35" x2="3.3" y2="3.35" width="0.1" layer="51"/>
+<wire x1="3.3" y1="3.35" x2="3.3" y2="-3.35" width="0.1" layer="51"/>
+<wire x1="3.3" y1="-3.35" x2="-3.3" y2="-3.35" width="0.1" layer="51"/>
+<wire x1="-3.3" y1="-3.35" x2="-3.3" y2="3.35" width="0.1" layer="51"/>
+<wire x1="0" y1="3.25" x2="0" y2="-3.25" width="0.2" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="LIS2DW12TR">
@@ -879,6 +896,16 @@
 <pin name="18" x="27.94" y="12.7" length="middle" rot="R270"/>
 <pin name="MP1" x="0" y="0" length="middle"/>
 <pin name="MP2" x="35.56" y="0" length="middle" rot="R180"/>
+</symbol>
+<symbol name="PCS2728DR1000ET">
+<wire x1="5.08" y1="1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="5.08" y1="1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
+<text x="13.97" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="13.97" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="0" visible="pad" length="middle"/>
+<pin name="2" x="17.78" y="0" visible="pad" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1386,6 +1413,31 @@ Source: &lt;a href="https://www.te.com/commerce/DocumentDelivery/DDEController?A
 <attribute name="MANUFACTURER_PART_NUMBER" value="1-1734742-8" constant="no"/>
 <attribute name="MOUSER_PART_NUMBER" value="571-1-1734742-8" constant="no"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity-AMP/1-1734742-8/?qs=GQ3BsEl46pnNfCx7wCXh9g%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PCS2728DR1000ET" prefix="R">
+<description>&lt;b&gt;Current Sense Resistors - SMD 4W 0.100 OHMS 0.5%&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://componentsearchengine.com//PCS2728DR1000ET.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="PCS2728DR1000ET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC6667X87N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Current Sense Resistors - SMD 4W 0.100 OHMS 0.5%" constant="no"/>
+<attribute name="HEIGHT" value="0.874mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Ohmite" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PCS2728DR1000ET" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="588-PCS2728DR1000ET" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Ohmite/PCS2728DR1000ET?qs=Zz7%252BYVVL6bGiKEnB6LZN7A%3D%3D" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -2222,6 +2274,8 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <part name="J3" library="SamacSys_Parts" deviceset="1-1734742-8" device=""/>
 <part name="X_37" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="X_36" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
+<part name="R9" library="SamacSys_Parts" deviceset="PCS2728DR1000ET" device=""/>
+<part name="X_38" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2443,6 +2497,11 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 </instance>
 <instance part="X_37" gate="G$1" x="76.2" y="-233.68" smashed="yes"/>
 <instance part="X_36" gate="G$1" x="119.38" y="-180.34" smashed="yes"/>
+<instance part="R9" gate="G$1" x="317.5" y="-182.88" smashed="yes" rot="R270">
+<attribute name="NAME" x="323.85" y="-196.85" size="1.778" layer="95" rot="R270" align="center-left"/>
+<attribute name="VALUE" x="321.31" y="-196.85" size="1.778" layer="96" rot="R270" align="center-left"/>
+</instance>
+<instance part="X_38" gate="G$1" x="317.5" y="-208.28" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -2718,6 +2777,11 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <junction x="0" y="-93.98"/>
 <pinref part="X_32" gate="G$1" pin="0"/>
 <wire x1="-10.16" y1="-93.98" x2="0" y2="-93.98" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R9" gate="G$1" pin="2"/>
+<wire x1="317.5" y1="-200.66" x2="317.5" y2="-208.28" width="0.1524" layer="91"/>
+<pinref part="X_38" gate="G$1" pin="0"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -3380,6 +3444,12 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <pinref part="R15" gate="G$1" pin="1"/>
 <pinref part="Q2" gate="G$1" pin="G"/>
 <wire x1="208.28" y1="-195.58" x2="220.98" y2="-195.58" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="R9" gate="G$1" pin="1"/>
+<wire x1="317.5" y1="-182.88" x2="317.5" y2="-175.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

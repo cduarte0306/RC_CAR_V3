@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -1236,14 +1236,14 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-UP3F1000V/?qs=GedFDFLaBXHy632EhqzO5A%3D%3D" x="37.084" y="80.01" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="38.608" y="77.216" size="1.27" layer="25" rot="R90" align="center"/>
 </element>
-<element name="C3" library="SamacSys_Parts" package="CAPC1608X95N" value="10uF" x="35.052" y="77.724" smashed="yes" rot="R270">
-<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 50V .1uF X7R 0603 10% AEC-Q200" x="35.052" y="76.2" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="HEIGHT" value="0.95mm" x="35.052" y="76.2" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Kemet" x="35.052" y="76.2" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="C0603C104K5RAC3121" x="35.052" y="76.2" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="80-C603C104K5RAC3121" x="35.052" y="76.2" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/KEMET/C0603C104K5RAC3121?qs=oBCMsStVSxe1EkGyoyETtg%3D%3D" x="35.052" y="76.2" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="33.274" y="78.232" size="1.27" layer="25" rot="R270" align="center"/>
+<element name="C3" library="SamacSys_Parts" package="CAPC1608X95N" value="10uF" x="46.99" y="61.976" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 50V .1uF X7R 0603 10% AEC-Q200" x="46.99" y="60.452" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="0.95mm" x="46.99" y="60.452" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kemet" x="46.99" y="60.452" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="C0603C104K5RAC3121" x="46.99" y="60.452" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="80-C603C104K5RAC3121" x="46.99" y="60.452" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/KEMET/C0603C104K5RAC3121?qs=oBCMsStVSxe1EkGyoyETtg%3D%3D" x="46.99" y="60.452" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="45.212" y="62.484" size="1.27" layer="25" rot="R270" align="center"/>
 </element>
 <element name="C16" library="SamacSys_Parts" package="HDRV4W90P0X254_1X4_1016X241X85" value="68000-404HLF" x="88.138" y="62.738" smashed="yes" rot="MR270">
 <attribute name="DESCRIPTION" value="4 Positions Header Connector 0.100&quot; (2.54mm) Through Hole Tin" x="88.138" y="66.04" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -1484,6 +1484,25 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/KEMET/C0603C104K5RAC3121?qs=oBCMsStVSxe1EkGyoyETtg%3D%3D" x="75.692" y="66.802" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="72.136" y="66.294" size="1.27" layer="25" rot="R90" align="center"/>
 </element>
+<element name="C25" library="SamacSys_Parts" package="CAPC1608X95N" value="0.1uF" x="2.54" y="21.336" smashed="yes">
+<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 50V .1uF X7R 0603 10% AEC-Q200" x="3.556" y="21.336" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.95mm" x="3.556" y="21.336" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kemet" x="3.556" y="21.336" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="C0603C104K5RAC3121" x="3.556" y="21.336" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="80-C603C104K5RAC3121" x="3.556" y="21.336" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/KEMET/C0603C104K5RAC3121?qs=oBCMsStVSxe1EkGyoyETtg%3D%3D" x="3.556" y="21.336" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="2.54" y="21.336" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="2.54" y="21.336" size="1.27" layer="27" align="center"/>
+</element>
+<element name="C26" library="SamacSys_Parts" package="CAPC1608X95N" value="0.1uF" x="55.88" y="51.308" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 50V .1uF X7R 0603 10% AEC-Q200" x="55.88" y="52.324" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="0.95mm" x="55.88" y="52.324" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kemet" x="55.88" y="52.324" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="C0603C104K5RAC3121" x="55.88" y="52.324" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="80-C603C104K5RAC3121" x="55.88" y="52.324" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/KEMET/C0603C104K5RAC3121?qs=oBCMsStVSxe1EkGyoyETtg%3D%3D" x="55.88" y="52.324" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="57.404" y="51.308" size="1.27" layer="25" rot="R90" align="center"/>
+</element>
 </elements>
 <signals>
 <signal name="3.3V">
@@ -1555,7 +1574,7 @@ design rules under a new name.</description>
 <wire x1="15.24" y1="77.724" x2="28.194" y2="77.724" width="0.1524" layer="16"/>
 <wire x1="28.194" y1="77.724" x2="31.1432" y2="74.7748" width="0.1524" layer="16"/>
 <wire x1="38.608" y1="69.85" x2="38.608" y2="57.15" width="0.1524" layer="16"/>
-<wire x1="4.05" y1="39.447" x2="10.348" y2="79.39" width="0" layer="19" extent="1-1"/>
+<wire x1="4.05" y1="39.447" x2="38.608" y2="57.15" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="0">
 <contactref element="U1" pad="2"/>
@@ -1634,6 +1653,10 @@ design rules under a new name.</description>
 <contactref element="IC4" pad="9"/>
 <contactref element="R10" pad="1"/>
 <contactref element="C24" pad="2"/>
+<contactref element="IC4" pad="45"/>
+<contactref element="IC4" pad="43"/>
+<contactref element="C25" pad="1"/>
+<contactref element="C26" pad="1"/>
 <wire x1="64.714" y1="85.564" x2="68.524" y2="85.564" width="0" layer="19" extent="1-1"/>
 <wire x1="77.192" y1="72.898" x2="68.524" y2="85.564" width="0" layer="19" extent="1-1"/>
 <wire x1="75.122" y1="66.802" x2="77.192" y2="72.898" width="0" layer="19" extent="1-1"/>
@@ -1645,15 +1668,17 @@ design rules under a new name.</description>
 <wire x1="52.978" y1="70.244" x2="53.378" y2="70.244" width="0" layer="19" extent="1-1"/>
 <wire x1="52.578" y1="70.244" x2="52.978" y2="70.244" width="0" layer="19" extent="1-1"/>
 <wire x1="52.578" y1="66.294" x2="52.578" y2="70.244" width="0" layer="19" extent="1-1"/>
+<wire x1="52.578" y1="62.344" x2="52.578" y2="66.294" width="0" layer="19" extent="1-1"/>
+<wire x1="53.378" y1="62.344" x2="52.578" y2="62.344" width="0" layer="19" extent="1-1"/>
 <wire x1="48.628" y1="66.694" x2="52.578" y2="66.294" width="0" layer="19" extent="1-1"/>
 <wire x1="49.784" y1="73.852" x2="52.578" y2="70.244" width="0" layer="19" extent="1-1"/>
 <wire x1="47.498" y1="73.852" x2="49.784" y2="73.852" width="0" layer="19" extent="1-1"/>
+<wire x1="46.99" y1="61.276" x2="48.628" y2="66.694" width="0" layer="19" extent="1-1"/>
+<wire x1="49.276" y1="57.72" x2="46.99" y2="61.276" width="0" layer="19" extent="1-1"/>
 <wire x1="42.734" y1="66.294" x2="48.628" y2="66.694" width="0" layer="19" extent="1-1"/>
 <wire x1="38.862" y1="66.003" x2="42.734" y2="66.294" width="0" layer="19" extent="1-1"/>
-<wire x1="49.276" y1="57.72" x2="48.628" y2="66.694" width="0" layer="19" extent="1-1"/>
 <wire x1="51.64" y1="47.354" x2="49.276" y2="57.72" width="0" layer="19" extent="1-1"/>
 <wire x1="37.084" y1="76.924" x2="47.498" y2="73.852" width="0" layer="19" extent="1-1"/>
-<wire x1="35.052" y1="77.024" x2="37.084" y2="76.924" width="0" layer="19" extent="1-1"/>
 <wire x1="82.55" y1="57.658" x2="75.122" y2="66.802" width="0" layer="19" extent="1-1"/>
 <wire x1="82.55" y1="55.118" x2="82.55" y2="57.658" width="0" layer="19" extent="1-1"/>
 <wire x1="88.138" y1="57.658" x2="82.55" y2="57.658" width="0" layer="19" extent="1-1"/>
@@ -1668,7 +1693,7 @@ design rules under a new name.</description>
 <wire x1="82.55" y1="42.672" x2="72.898" y2="44.512" width="0" layer="19" extent="1-1"/>
 <wire x1="82.55" y1="30.226" x2="82.55" y2="42.672" width="0" layer="19" extent="1-1"/>
 <wire x1="88.138" y1="30.226" x2="82.55" y2="30.226" width="0" layer="19" extent="1-1"/>
-<wire x1="28.194" y1="92.346" x2="35.052" y2="77.024" width="0" layer="19" extent="1-1"/>
+<wire x1="45.466" y1="91.948" x2="37.084" y2="76.924" width="0" layer="19" extent="1-1"/>
 <wire x1="57.658" y1="31.18" x2="51.64" y2="47.354" width="0" layer="19" extent="1-1"/>
 <wire x1="59.69" y1="31.18" x2="57.658" y2="31.18" width="0" layer="19" extent="1-1"/>
 <wire x1="12.131" y1="57.911" x2="10.348" y2="78.09" width="0" layer="19" extent="1-1"/>
@@ -1676,6 +1701,8 @@ design rules under a new name.</description>
 <wire x1="21.119" y1="53.594" x2="12.131" y2="57.911" width="0" layer="19" extent="1-1"/>
 <wire x1="6.35" y1="39.447" x2="6.858" y2="50.252" width="0" layer="19" extent="1-1"/>
 <wire x1="6.35" y1="33.197" x2="6.35" y2="39.447" width="0" layer="19" extent="1-1"/>
+<wire x1="1.84" y1="21.336" x2="6.35" y2="33.197" width="0" layer="19" extent="1-1"/>
+<wire x1="55.88" y1="50.608" x2="1.84" y2="21.336" width="0" layer="19" extent="1-1"/>
 <wire x1="20.574" y1="34.146" x2="6.35" y2="33.197" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SCL">
@@ -1753,27 +1780,52 @@ design rules under a new name.</description>
 <contactref element="R13" pad="2"/>
 <contactref element="R14" pad="2"/>
 <wire x1="57.62" y1="85.852" x2="57.62" y2="87.63" width="0.1524" layer="1"/>
+<via x="20.828" y="81.026" extent="1-16" drill="0.35"/>
+<via x="22.86" y="81.026" extent="1-16" drill="0.35"/>
+<via x="20.828" y="79.502" extent="1-16" drill="0.35"/>
+<via x="22.86" y="79.502" extent="1-16" drill="0.35"/>
 <polygon width="0.1524" layer="1" thermals="no">
-<vertex x="46.99" y="90.678" curve="90"/>
-<vertex x="47.244" y="90.424"/>
-<vertex x="48.514" y="90.424"/>
-<vertex x="71.882" y="90.424" curve="-90"/>
-<vertex x="72.644" y="89.662"/>
-<vertex x="72.644" y="89.154" curve="90"/>
-<vertex x="73.152" y="88.646"/>
-<vertex x="75.438" y="88.646" curve="90"/>
-<vertex x="75.692" y="88.9"/>
-<vertex x="75.692" y="93.218" curve="90"/>
-<vertex x="74.93" y="93.98"/>
-<vertex x="49.53" y="93.98" curve="-90"/>
-<vertex x="49.022" y="94.488"/>
-<vertex x="46.736" y="94.488"/>
-<vertex x="46.736" y="90.932" curve="90"/>
+<vertex x="28.702" y="86.868"/>
+<vertex x="48.768" y="86.868" curve="90"/>
+<vertex x="51.308" y="89.408" curve="-90"/>
+<vertex x="55.372" y="93.472"/>
+<vertex x="62.992" y="93.472"/>
+<vertex x="75.438" y="93.472"/>
+<vertex x="75.438" y="88.9"/>
+<vertex x="71.374" y="88.9" curve="90"/>
+<vertex x="69.342" y="90.932"/>
+<vertex x="68.834" y="90.932"/>
+<vertex x="59.69" y="90.932"/>
+<vertex x="55.118" y="90.932" curve="90"/>
+<vertex x="52.832" y="88.646"/>
+<vertex x="52.832" y="86.614" curve="-90"/>
+<vertex x="50.038" y="83.82"/>
+<vertex x="37.592" y="83.82"/>
+<vertex x="29.972" y="83.82" curve="90"/>
+<vertex x="29.21" y="83.058"/>
+<vertex x="29.21" y="82.296"/>
+<vertex x="28.702" y="82.296"/>
 </polygon>
-<wire x1="74.396" y1="89.065" x2="88.138" y2="62.738" width="0" layer="19" extent="1-1"/>
-<wire x1="57.62" y1="87.63" x2="73.076" y2="89.065" width="0" layer="19" extent="1-1"/>
-<wire x1="37.084" y1="82.08" x2="57.62" y2="85.852" width="0" layer="19" extent="1-1"/>
-<wire x1="28.194" y1="84.946" x2="37.084" y2="82.08" width="0" layer="19" extent="1-1"/>
+<polygon width="0.1524" layer="1" thermals="no">
+<vertex x="75.184" y="93.472"/>
+<vertex x="88.9" y="93.472" curve="-90"/>
+<vertex x="90.17" y="92.202"/>
+<vertex x="90.17" y="62.738" curve="-90"/>
+<vertex x="89.916" y="62.484"/>
+<vertex x="87.63" y="62.484" curve="-90"/>
+<vertex x="87.376" y="62.738"/>
+<vertex x="87.376" y="67.564" curve="-90"/>
+<vertex x="87.63" y="67.818" curve="90"/>
+<vertex x="89.154" y="69.342"/>
+<vertex x="89.154" y="72.644"/>
+<vertex x="89.154" y="89.662" curve="90"/>
+<vertex x="87.63" y="91.186"/>
+<vertex x="75.184" y="91.186"/>
+</polygon>
+<wire x1="37.084" y1="82.08" x2="37.084" y2="84.074" width="0.1524" layer="1"/>
+<wire x1="37.084" y1="84.074" x2="36.212" y2="84.946" width="0.1524" layer="1" curve="90"/>
+<wire x1="36.212" y1="84.946" x2="28.194" y2="84.946" width="0.1524" layer="1"/>
+<wire x1="73.076" y1="89.065" x2="57.62" y2="87.63" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="R6" pad="2"/>
@@ -1836,8 +1888,12 @@ design rules under a new name.</description>
 <vertex x="8.89" y="37.592" curve="-90"/>
 <vertex x="8.128" y="38.354"/>
 </polygon>
-<wire x1="40.386" y1="56.642" x2="38.862" y2="60.997" width="0" layer="19" extent="1-1"/>
-<wire x1="16.951" y1="57.911" x2="38.862" y2="60.997" width="0" layer="19" extent="1-1"/>
+<wire x1="38.862" y1="60.997" x2="38.862" y2="58.166" width="0.1524" layer="1"/>
+<wire x1="38.862" y1="58.166" x2="40.386" y2="56.642" width="0.1524" layer="1"/>
+<wire x1="40.386" y1="56.642" x2="32.258" y2="56.642" width="0.1524" layer="1"/>
+<wire x1="32.258" y1="56.642" x2="29.21" y2="59.69" width="0.1524" layer="1"/>
+<wire x1="29.21" y1="59.69" x2="18.73" y2="59.69" width="0.1524" layer="1"/>
+<wire x1="18.73" y1="59.69" x2="16.951" y2="57.911" width="0.1524" layer="1"/>
 </signal>
 <signal name="RX">
 <contactref element="XB1" pad="2"/>
@@ -2199,6 +2255,10 @@ design rules under a new name.</description>
 <wire x1="39.878" y1="52.07" x2="42.164" y2="54.356" width="0.1524" layer="1"/>
 <wire x1="20.574" y1="41.546" x2="22.898" y2="43.87" width="0.1524" layer="1"/>
 <wire x1="22.898" y1="43.87" x2="22.898" y2="45.212" width="0.1524" layer="1"/>
+<contactref element="IC4" pad="44"/>
+<contactref element="C26" pad="2"/>
+<wire x1="49.378" y1="62.344" x2="52.978" y2="62.344" width="0" layer="19" extent="1-1"/>
+<wire x1="55.88" y1="52.008" x2="20.574" y2="41.546" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$9">
 <contactref element="R17" pad="1"/>
@@ -2320,9 +2380,8 @@ design rules under a new name.</description>
 <contactref element="R2" pad="2"/>
 <contactref element="R7" pad="1"/>
 <contactref element="IC4" pad="34"/>
-<wire x1="48.628" y1="63.094" x2="46.09520625" y2="63.094" width="0.1524" layer="1"/>
 <wire x1="44.85158125" y1="62.12358125" x2="44.196" y2="61.468" width="0.1524" layer="1"/>
-<wire x1="46.09520625" y1="63.094" x2="45.1247875" y2="62.12358125" width="0.1524" layer="1"/>
+<wire x1="45.1247875" y1="62.12358125" x2="45.58720625" y2="62.586" width="0.1524" layer="1"/>
 <wire x1="45.1247875" y1="62.12358125" x2="44.85158125" y2="62.12358125" width="0.1524" layer="1"/>
 <wire x1="44.196" y1="61.468" x2="44.196" y2="61.56415" width="0.1524" layer="1"/>
 <wire x1="44.196" y1="61.56415" x2="44.2948" y2="61.66295" width="0.1524" layer="1"/>
@@ -2336,8 +2395,10 @@ design rules under a new name.</description>
 <wire x1="38.062" y1="78.524" x2="37.084" y2="78.524" width="0.1524" layer="1"/>
 <wire x1="42.164" y1="74.422" x2="38.062" y2="78.524" width="0.1524" layer="1"/>
 <wire x1="37.084" y1="80.48" x2="37.084" y2="78.524" width="0.1524" layer="1"/>
-<wire x1="35.052" y1="78.424" x2="35.152" y2="78.524" width="0.1524" layer="1"/>
-<wire x1="35.152" y1="78.524" x2="37.084" y2="78.524" width="0.1524" layer="1"/>
+<wire x1="47.09" y1="62.776" x2="46.99" y2="62.676" width="0.1524" layer="1"/>
+<wire x1="45.58720625" y1="62.586" x2="46.9" y2="62.586" width="0.1524" layer="1"/>
+<wire x1="46.9" y1="62.586" x2="46.99" y2="62.676" width="0.1524" layer="1"/>
+<wire x1="48.628" y1="63.094" x2="47.09" y2="62.776" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
 <contactref element="J1" pad="1"/>
@@ -2606,6 +2667,11 @@ design rules under a new name.</description>
 <via x="56.134" y="60.706" extent="1-16" drill="0.35"/>
 <wire x1="56.134" y1="60.706" x2="55.778" y2="61.062" width="0.1524" layer="1"/>
 <wire x1="55.778" y1="61.062" x2="55.778" y2="62.344" width="0.1524" layer="1"/>
+</signal>
+<signal name="N$6">
+<contactref element="C25" pad="2"/>
+<contactref element="IC4" pad="42"/>
+<wire x1="3.24" y1="21.336" x2="52.178" y2="62.344" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

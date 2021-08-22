@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2284,6 +2284,7 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <part name="X_41" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="C26" library="SamacSys_Parts" deviceset="C0603C104K5RAC3121" device="" value="0.1uF"/>
 <part name="X_42" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
+<part name="R18" library="SamacSys_Parts" deviceset="ERJ-UP3F1000V" device="" value="1k"/>
 </parts>
 <sheets>
 <sheet>
@@ -2527,6 +2528,7 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <attribute name="VALUE" x="153.67" y="-92.71" size="1.778" layer="96" rot="R90" align="center-left"/>
 </instance>
 <instance part="X_42" gate="G$1" x="149.86" y="-99.06" smashed="yes"/>
+<instance part="R18" gate="G$1" x="157.48" y="-111.76" smashed="yes" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -3204,6 +3206,9 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <pinref part="IC4" gate="G$1" pin="VDDIO1"/>
 <wire x1="7.62" y1="-116.84" x2="7.62" y2="-167.64" width="0.1524" layer="91"/>
 <junction x="7.62" y="-167.64"/>
+<wire x1="119.38" y1="-116.84" x2="132.08" y2="-116.84" width="0.1524" layer="91"/>
+<junction x="119.38" y="-116.84"/>
+<label x="132.08" y="-116.84" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC4" gate="G$1" pin="VDDA"/>
@@ -3532,9 +3537,19 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <pinref part="IC4" gate="G$1" pin="VCCA"/>
 </segment>
 </net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="IC4" gate="G$1" pin="P3[7]_(GPIO,_OPAMP3OUT)"/>
+<wire x1="109.22" y1="-111.76" x2="139.7" y2="-111.76" width="0.1524" layer="91"/>
+<pinref part="R18" gate="G$1" pin="2"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,58.42,121.92,IC2,GND,0,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
