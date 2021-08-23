@@ -2345,6 +2345,7 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <part name="R9" library="SamacSys_Parts" deviceset="PCS2728DR1000ET" device=""/>
 <part name="X_38" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="Q3" library="SamacSys_Parts" deviceset="PSMN1R0-30YLDX" device=""/>
+<part name="Q4" library="SamacSys_Parts" deviceset="PSMN1R0-30YLDX" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2574,6 +2575,10 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <instance part="Q3" gate="G$1" x="264.16" y="-190.5" smashed="yes">
 <attribute name="NAME" x="283.21" y="-182.88" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="283.21" y="-185.42" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="Q4" gate="G$1" x="264.16" y="-205.74" smashed="yes">
+<attribute name="NAME" x="283.21" y="-198.12" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="283.21" y="-200.66" size="1.778" layer="96" align="center-left"/>
 </instance>
 </instances>
 <busses>
