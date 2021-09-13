@@ -1263,14 +1263,14 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Cypress-Semiconductor/CY8C5888LTI-LP097?qs=cwEsOGdHuFTnf5eSL8Yedw%3D%3D" x="52.578" y="66.294" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="56.388" y="59.944" size="1.27" layer="25" rot="R270" align="center"/>
 </element>
-<element name="R4" library="SamacSys_Parts" package="RESC1608X55N" value="1k" x="52.832" y="58.42" smashed="yes" rot="R270">
-<attribute name="DESCRIPTION" value="Thick Film Resistors - SMD 0603 0.25W 1% 100ohm AEC-Q200" x="52.832" y="56.134" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="HEIGHT" value="0.55mm" x="52.832" y="56.134" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Panasonic" x="52.832" y="56.134" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ERJ-UP3F1000V" x="52.832" y="56.134" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="667-ERJ-UP3F1000V" x="52.832" y="56.134" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-UP3F1000V/?qs=GedFDFLaBXHy632EhqzO5A%3D%3D" x="52.832" y="56.134" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="52.832" y="55.118" size="1.27" layer="25" rot="R270" align="center"/>
+<element name="R4" library="SamacSys_Parts" package="RESC1608X55N" value="1k" x="53.34" y="58.166" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value="Thick Film Resistors - SMD 0603 0.25W 1% 100ohm AEC-Q200" x="53.34" y="55.88" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="0.55mm" x="53.34" y="55.88" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Panasonic" x="53.34" y="55.88" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ERJ-UP3F1000V" x="53.34" y="55.88" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="667-ERJ-UP3F1000V" x="53.34" y="55.88" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-UP3F1000V/?qs=GedFDFLaBXHy632EhqzO5A%3D%3D" x="53.34" y="55.88" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="53.34" y="54.864" size="1.27" layer="25" rot="R270" align="center"/>
 </element>
 <element name="R8" library="SamacSys_Parts" package="RESC1608X55N" value="1k" x="51.054" y="58.42" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="Thick Film Resistors - SMD 0603 0.25W 1% 100ohm AEC-Q200" x="51.054" y="56.134" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1494,14 +1494,14 @@ design rules under a new name.</description>
 <attribute name="NAME" x="2.54" y="21.336" size="1.27" layer="25" align="center"/>
 <attribute name="VALUE" x="2.54" y="21.336" size="1.27" layer="27" align="center"/>
 </element>
-<element name="C26" library="SamacSys_Parts" package="CAPC1608X95N" value="0.1uF" x="55.88" y="51.308" smashed="yes" rot="R90">
-<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 50V .1uF X7R 0603 10% AEC-Q200" x="55.88" y="52.324" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="HEIGHT" value="0.95mm" x="55.88" y="52.324" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Kemet" x="55.88" y="52.324" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="C0603C104K5RAC3121" x="55.88" y="52.324" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="80-C603C104K5RAC3121" x="55.88" y="52.324" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/KEMET/C0603C104K5RAC3121?qs=oBCMsStVSxe1EkGyoyETtg%3D%3D" x="55.88" y="52.324" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="57.404" y="51.308" size="1.27" layer="25" rot="R90" align="center"/>
+<element name="C26" library="SamacSys_Parts" package="CAPC1608X95N" value="0.1uF" x="55.88" y="51.816" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 50V .1uF X7R 0603 10% AEC-Q200" x="55.88" y="52.832" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="0.95mm" x="55.88" y="52.832" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kemet" x="55.88" y="52.832" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="C0603C104K5RAC3121" x="55.88" y="52.832" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="80-C603C104K5RAC3121" x="55.88" y="52.832" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/KEMET/C0603C104K5RAC3121?qs=oBCMsStVSxe1EkGyoyETtg%3D%3D" x="55.88" y="52.832" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="57.404" y="51.816" size="1.27" layer="25" rot="R90" align="center"/>
 </element>
 </elements>
 <signals>
@@ -1540,11 +1540,6 @@ design rules under a new name.</description>
 <wire x1="42.418" y1="53.34" x2="45.466" y2="53.34" width="0.254" layer="16"/>
 <wire x1="45.466" y1="53.34" x2="46.482" y2="54.356" width="0.254" layer="16"/>
 <via x="46.482" y="54.356" extent="1-16" drill="0.35"/>
-<wire x1="46.482" y1="54.356" x2="48.514" y2="56.388" width="0.254" layer="1"/>
-<wire x1="48.514" y1="56.388" x2="50.292" y2="56.388" width="0.254" layer="1"/>
-<wire x1="50.292" y1="56.388" x2="51.054" y2="57.15" width="0.254" layer="1"/>
-<wire x1="51.054" y1="57.15" x2="51.054" y2="57.62" width="0.254" layer="1"/>
-<wire x1="51.054" y1="57.62" x2="52.832" y2="57.62" width="0.254" layer="1"/>
 <wire x1="46.482" y1="54.356" x2="59.9491" y2="54.356" width="0.254" layer="1"/>
 <wire x1="59.9491" y1="54.356" x2="60.20055" y2="54.10455" width="0.254" layer="1"/>
 <wire x1="60.20055" y1="54.10455" x2="60.3047" y2="54.0004" width="0.254" layer="1"/>
@@ -1574,6 +1569,8 @@ design rules under a new name.</description>
 <wire x1="15.24" y1="77.724" x2="28.194" y2="77.724" width="0.1524" layer="16"/>
 <wire x1="28.194" y1="77.724" x2="31.1432" y2="74.7748" width="0.1524" layer="16"/>
 <wire x1="38.608" y1="69.85" x2="38.608" y2="57.15" width="0.1524" layer="16"/>
+<wire x1="51.054" y1="57.62" x2="53.34" y2="57.366" width="0" layer="19" extent="1-1"/>
+<wire x1="46.482" y1="54.356" x2="51.054" y2="57.62" width="0" layer="19" extent="1-16"/>
 <wire x1="4.05" y1="39.447" x2="38.608" y2="57.15" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="0">
@@ -1702,19 +1699,15 @@ design rules under a new name.</description>
 <wire x1="6.35" y1="39.447" x2="6.858" y2="50.252" width="0" layer="19" extent="1-1"/>
 <wire x1="6.35" y1="33.197" x2="6.35" y2="39.447" width="0" layer="19" extent="1-1"/>
 <wire x1="1.84" y1="21.336" x2="6.35" y2="33.197" width="0" layer="19" extent="1-1"/>
-<wire x1="55.88" y1="50.608" x2="1.84" y2="21.336" width="0" layer="19" extent="1-1"/>
+<wire x1="55.88" y1="51.116" x2="1.84" y2="21.336" width="0" layer="19" extent="1-1"/>
 <wire x1="20.574" y1="34.146" x2="6.35" y2="33.197" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SCL">
 <contactref element="IC1" pad="4"/>
 <contactref element="IC4" pad="38"/>
 <contactref element="R8" pad="1"/>
-<wire x1="51.054" y1="59.22" x2="50.578" y2="59.696" width="0.1524" layer="1"/>
-<wire x1="50.578" y1="59.696" x2="50.578" y2="60.452" width="0.1524" layer="1"/>
-<wire x1="50.578" y1="60.452" x2="50.578" y2="62.344" width="0.1524" layer="1"/>
-<wire x1="50.546" y1="60.42" x2="50.546" y2="60.198" width="0.1524" layer="16"/>
+<wire x1="50.546" y1="60.42" x2="50.546" y2="59.944" width="0.1524" layer="16"/>
 <wire x1="50.546" y1="60.42" x2="50.578" y2="60.452" width="0.1524" layer="16"/>
-<via x="50.578" y="60.452" extent="1-16" drill="0.35"/>
 <wire x1="68.072" y1="54.356" x2="60.452" y2="54.356" width="0.1524" layer="1"/>
 <wire x1="60.452" y1="54.356" x2="59.944" y2="54.864" width="0.1524" layer="1"/>
 <wire x1="69.1" y1="49.06" x2="69.1" y2="53.328" width="0.1524" layer="1"/>
@@ -1722,28 +1715,27 @@ design rules under a new name.</description>
 <wire x1="59.944" y1="54.864" x2="53.594" y2="54.864" width="0.1524" layer="1"/>
 <wire x1="53.594" y1="54.864" x2="52.832" y2="55.626" width="0.1524" layer="1"/>
 <via x="52.832" y="55.626" extent="1-16" drill="0.35"/>
-<wire x1="51.2762" y1="59.4678" x2="51.2762" y2="58.02074375" width="0.1524" layer="16"/>
+<wire x1="51.2762" y1="59.2138" x2="51.2762" y2="58.02074375" width="0.1524" layer="16"/>
 <wire x1="52.832" y1="56.46494375" x2="52.832" y2="55.626" width="0.1524" layer="16"/>
 <wire x1="51.2762" y1="58.02074375" x2="52.832" y2="56.46494375" width="0.1524" layer="16"/>
-<wire x1="50.546" y1="60.198" x2="51.2762" y2="59.4678" width="0.1524" layer="16"/>
+<wire x1="50.546" y1="59.944" x2="51.2762" y2="59.2138" width="0.1524" layer="16"/>
+<wire x1="50.578" y1="60.452" x2="50.578" y2="62.344" width="0" layer="19" extent="1-16"/>
+<wire x1="51.054" y1="59.22" x2="51.2762" y2="59.2138" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="SDA">
 <contactref element="IC1" pad="1"/>
 <contactref element="R4" pad="1"/>
 <contactref element="IC4" pad="39"/>
-<wire x1="52.832" y1="59.22" x2="51.581" y2="60.471" width="0.1524" layer="1"/>
-<wire x1="51.581" y1="60.471" x2="50.978" y2="61.074" width="0.1524" layer="1"/>
-<wire x1="50.978" y1="61.074" x2="50.978" y2="62.344" width="0.1524" layer="1"/>
-<via x="51.581" y="60.471" extent="1-16" drill="0.35"/>
 <wire x1="70.6" y1="49.06" x2="70.6" y2="52.336" width="0.1524" layer="1"/>
 <wire x1="70.6" y1="52.336" x2="68.2752" y2="54.6608" width="0.1524" layer="1"/>
 <wire x1="60.9092" y1="54.6608" x2="60.2488" y2="55.3212" width="0.1524" layer="1"/>
 <wire x1="54.4068" y1="55.3212" x2="53.848" y2="55.88" width="0.1524" layer="1"/>
 <via x="53.848" y="55.88" extent="1-16" drill="0.35"/>
 <wire x1="53.848" y1="55.88" x2="51.581" y2="58.147" width="0.1524" layer="16"/>
-<wire x1="51.581" y1="58.147" x2="51.581" y2="60.471" width="0.1524" layer="16"/>
 <wire x1="68.2752" y1="54.6608" x2="60.9092" y2="54.6608" width="0.1524" layer="1"/>
 <wire x1="60.2488" y1="55.3212" x2="54.4068" y2="55.3212" width="0.1524" layer="1"/>
+<wire x1="51.581" y1="58.147" x2="53.34" y2="58.966" width="0" layer="19" extent="1-16"/>
+<wire x1="50.978" y1="62.344" x2="53.34" y2="58.966" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VBUS">
 <contactref element="PS1" pad="2"/>
@@ -1848,9 +1840,10 @@ design rules under a new name.</description>
 <wire x1="48.26" y1="54.61" x2="46.228" y2="56.642" width="0.1524" layer="16"/>
 <wire x1="82.55" y1="37.846" x2="85.09" y2="37.846" width="0.1524" layer="16"/>
 <wire x1="85.09" y1="37.846" x2="88.138" y2="37.846" width="0.1524" layer="16"/>
-<wire x1="79.502" y1="40.894" x2="82.55" y2="37.846" width="0.1524" layer="16"/>
+<wire x1="82.042" y1="37.846" x2="82.55" y2="37.846" width="0.1524" layer="16"/>
+<wire x1="82.042" y1="37.846" x2="79.502" y2="40.386" width="0.1524" layer="16"/>
 <wire x1="72.898" y1="54.61" x2="79.502" y2="48.006" width="0.1524" layer="16"/>
-<wire x1="79.502" y1="48.006" x2="79.502" y2="40.894" width="0.1524" layer="16"/>
+<wire x1="79.502" y1="48.006" x2="79.502" y2="40.386" width="0.1524" layer="16"/>
 <wire x1="82.55" y1="50.292" x2="84.328" y2="48.514" width="0.1524" layer="16"/>
 <wire x1="84.328" y1="38.608" x2="85.09" y2="37.846" width="0.1524" layer="16"/>
 <wire x1="84.328" y1="48.514" x2="84.328" y2="38.608" width="0.1524" layer="16"/>
@@ -2029,8 +2022,6 @@ design rules under a new name.</description>
 <wire x1="69.596" y1="56.388" x2="70.104" y2="56.896" width="0.1524" layer="16"/>
 <via x="69.596" y="56.388" extent="1-16" drill="0.35"/>
 <wire x1="69.596" y1="56.388" x2="55.626" y2="56.388" width="0.1524" layer="1"/>
-<wire x1="55.626" y1="56.388" x2="54.102" y2="57.912" width="0.1524" layer="1"/>
-<wire x1="54.102" y1="57.912" x2="54.102" y2="61.8197125" width="0.1524" layer="1"/>
 <wire x1="54.102" y1="61.8197125" x2="54.1066" y2="61.8243125" width="0.1524" layer="1"/>
 <wire x1="54.1066" y1="61.8243125" x2="54.1066" y2="62.2726" width="0.1524" layer="1"/>
 <wire x1="54.1066" y1="62.2726" x2="54.178" y2="62.344" width="0.1524" layer="1"/>
@@ -2040,6 +2031,7 @@ design rules under a new name.</description>
 <wire x1="74.422" y1="56.896" x2="78.3872" y2="52.9308" width="0.1524" layer="16"/>
 <wire x1="83.39025625" y1="52.9308" x2="85.852" y2="50.46905625" width="0.1524" layer="16"/>
 <wire x1="70.104" y1="56.896" x2="74.422" y2="56.896" width="0.1524" layer="16"/>
+<wire x1="55.626" y1="56.388" x2="54.102" y2="61.8197125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="TX_JETSON">
 <contactref element="C8" pad="1"/>
@@ -2049,15 +2041,14 @@ design rules under a new name.</description>
 <wire x1="62.738" y1="55.626" x2="61.976" y2="55.626" width="0.1524" layer="16"/>
 <via x="61.976" y="55.626" extent="1-16" drill="0.35"/>
 <wire x1="53.7972" y1="62.3248" x2="53.778" y2="62.344" width="0.1524" layer="1"/>
-<wire x1="53.7972" y1="57.78574375" x2="53.7972" y2="62.3248" width="0.1524" layer="1"/>
 <wire x1="61.976" y1="55.626" x2="55.95694375" y2="55.626" width="0.1524" layer="1"/>
-<wire x1="55.95694375" y1="55.626" x2="53.7972" y2="57.78574375" width="0.1524" layer="1"/>
 <wire x1="69.24585" y1="56.896" x2="64.008" y2="56.896" width="0.1524" layer="16"/>
 <wire x1="78.5904" y1="53.2356" x2="83.5165125" y2="53.2356" width="0.1524" layer="16"/>
 <wire x1="86.4601125" y1="50.292" x2="88.138" y2="50.292" width="0.1524" layer="16"/>
 <wire x1="83.5165125" y1="53.2356" x2="86.4601125" y2="50.292" width="0.1524" layer="16"/>
 <wire x1="69.55065" y1="57.2008" x2="74.6252" y2="57.2008" width="0.1524" layer="16"/>
 <wire x1="74.6252" y1="57.2008" x2="78.5904" y2="53.2356" width="0.1524" layer="16"/>
+<wire x1="55.95694375" y1="55.626" x2="53.7972" y2="62.3248" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CTS_JETSON">
 <contactref element="C8" pad="4"/>
@@ -2208,7 +2199,6 @@ design rules under a new name.</description>
 <contactref element="C22" pad="1"/>
 <contactref element="IC4" pad="17"/>
 <wire x1="49.276" y1="59.12" x2="49.276" y2="59.182" width="0.1524" layer="1"/>
-<wire x1="49.276" y1="59.182" x2="49.276" y2="62.242" width="0.1524" layer="1"/>
 <wire x1="49.276" y1="62.242" x2="49.378" y2="62.344" width="0.1524" layer="1"/>
 <wire x1="47.498" y1="72.452" x2="47.56" y2="72.39" width="0.1524" layer="1"/>
 <wire x1="47.56" y1="72.39" x2="48.545" y2="71.405" width="0.1524" layer="1"/>
@@ -2219,8 +2209,6 @@ design rules under a new name.</description>
 <wire x1="42.164" y1="57.658" x2="42.672" y2="58.166" width="0.1524" layer="16"/>
 <wire x1="42.672" y1="58.166" x2="46.482" y2="58.166" width="0.1524" layer="16"/>
 <via x="46.482" y="58.166" extent="1-16" drill="0.35"/>
-<wire x1="46.482" y1="58.166" x2="47.498" y2="59.182" width="0.1524" layer="1"/>
-<wire x1="47.498" y1="59.182" x2="49.276" y2="59.182" width="0.1524" layer="1"/>
 <wire x1="42.164" y1="57.658" x2="42.164" y2="60.96" width="0.1524" layer="1"/>
 <via x="42.164" y="60.96" extent="1-16" drill="0.35"/>
 <wire x1="42.164" y1="60.96" x2="40.386" y2="62.738" width="0.1524" layer="16"/>
@@ -2258,7 +2246,9 @@ design rules under a new name.</description>
 <contactref element="IC4" pad="44"/>
 <contactref element="C26" pad="2"/>
 <wire x1="49.378" y1="62.344" x2="52.978" y2="62.344" width="0" layer="19" extent="1-1"/>
-<wire x1="55.88" y1="52.008" x2="20.574" y2="41.546" width="0" layer="19" extent="1-1"/>
+<wire x1="49.276" y1="59.182" x2="49.276" y2="62.242" width="0" layer="19" extent="1-1"/>
+<wire x1="46.482" y1="58.166" x2="49.276" y2="59.12" width="0" layer="19" extent="1-1"/>
+<wire x1="55.88" y1="52.516" x2="49.276" y2="59.12" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$9">
 <contactref element="R17" pad="1"/>
