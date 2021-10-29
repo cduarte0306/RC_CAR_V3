@@ -3388,9 +3388,9 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <label x="302.26" y="-162.56" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC4" gate="G$1" pin="P3[7]_(GPIO,_OPAMP3OUT)"/>
-<wire x1="109.22" y1="-111.76" x2="114.3" y2="-111.76" width="0.1524" layer="91"/>
-<label x="114.3" y="-111.76" size="1.778" layer="95"/>
+<pinref part="IC4" gate="G$1" pin="P2[1]_(GPIO)"/>
+<wire x1="50.8" y1="-22.86" x2="50.8" y2="-15.24" width="0.1524" layer="91"/>
+<label x="50.8" y="-15.24" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="N$5" class="0">

@@ -2227,12 +2227,12 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <part name="LED1" library="SamacSys_Parts" deviceset="LTST-C191TBKT" device=""/>
 <part name="IC3" library="SamacSys_Parts" deviceset="MC33HB2000AES" device=""/>
 <part name="C24" library="SamacSys_Parts" deviceset="C0603C104K5RAC3121" device="" value="1uF"/>
-<part name="X_8" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
-<part name="X_10" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="X_38" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="X_39" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="X_43" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="X_44" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
+<part name="X_10" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
+<part name="X_8" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2454,12 +2454,12 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <attribute name="NAME" x="308.61" y="-151.13" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="308.61" y="-153.67" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="X_8" gate="G$1" x="302.26" y="-195.58" smashed="yes"/>
-<instance part="X_10" gate="G$1" x="254" y="-200.66" smashed="yes"/>
 <instance part="X_38" gate="G$1" x="311.15" y="-134.62" smashed="yes" rot="R90"/>
 <instance part="X_39" gate="G$1" x="311.15" y="-140.97" smashed="yes" rot="R90"/>
 <instance part="X_43" gate="G$1" x="238.76" y="-148.59" smashed="yes" rot="R180"/>
 <instance part="X_44" gate="G$1" x="228.6" y="-148.59" smashed="yes" rot="R180"/>
+<instance part="X_10" gate="G$1" x="259.08" y="-195.58" smashed="yes"/>
+<instance part="X_8" gate="G$1" x="302.26" y="-195.58" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -2771,6 +2771,50 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <pinref part="X_44" gate="G$1" pin="0"/>
 <wire x1="259.08" y1="-154.94" x2="228.6" y2="-154.94" width="0.1524" layer="91"/>
 <wire x1="228.6" y1="-154.94" x2="228.6" y2="-148.59" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="G$1" pin="PGND_1"/>
+<pinref part="IC3" gate="G$1" pin="PGND_2"/>
+<wire x1="259.08" y1="-182.88" x2="259.08" y2="-185.42" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="G$1" pin="PGND_3"/>
+<wire x1="259.08" y1="-185.42" x2="259.08" y2="-187.96" width="0.1524" layer="91"/>
+<junction x="259.08" y="-185.42"/>
+<pinref part="IC3" gate="G$1" pin="PGND_4"/>
+<wire x1="259.08" y1="-190.5" x2="259.08" y2="-187.96" width="0.1524" layer="91"/>
+<junction x="259.08" y="-187.96"/>
+<wire x1="259.08" y1="-190.5" x2="259.08" y2="-195.58" width="0.1524" layer="91"/>
+<junction x="259.08" y="-190.5"/>
+<pinref part="X_10" gate="G$1" pin="0"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="G$1" pin="AGND_3"/>
+<pinref part="IC3" gate="G$1" pin="AGND_4"/>
+<wire x1="294.64" y1="-167.64" x2="294.64" y2="-170.18" width="0.1524" layer="91"/>
+<wire x1="294.64" y1="-167.64" x2="302.26" y2="-167.64" width="0.1524" layer="91"/>
+<junction x="294.64" y="-167.64"/>
+<pinref part="IC3" gate="G$1" pin="AGND_9"/>
+<wire x1="294.64" y1="-182.88" x2="294.64" y2="-180.34" width="0.1524" layer="91"/>
+<junction x="294.64" y="-170.18"/>
+<pinref part="IC3" gate="G$1" pin="AGND_5"/>
+<wire x1="294.64" y1="-180.34" x2="294.64" y2="-177.8" width="0.1524" layer="91"/>
+<wire x1="294.64" y1="-177.8" x2="294.64" y2="-175.26" width="0.1524" layer="91"/>
+<wire x1="294.64" y1="-175.26" x2="294.64" y2="-172.72" width="0.1524" layer="91"/>
+<wire x1="294.64" y1="-172.72" x2="294.64" y2="-170.18" width="0.1524" layer="91"/>
+<junction x="294.64" y="-172.72"/>
+<pinref part="IC3" gate="G$1" pin="AGND_6"/>
+<junction x="294.64" y="-175.26"/>
+<pinref part="IC3" gate="G$1" pin="AGND_7"/>
+<junction x="294.64" y="-177.8"/>
+<pinref part="IC3" gate="G$1" pin="AGND_8"/>
+<junction x="294.64" y="-180.34"/>
+<pinref part="IC3" gate="G$1" pin="AGND_11"/>
+<wire x1="294.64" y1="-187.96" x2="294.64" y2="-185.42" width="0.1524" layer="91"/>
+<junction x="294.64" y="-182.88"/>
+<pinref part="IC3" gate="G$1" pin="AGND_10"/>
+<wire x1="294.64" y1="-185.42" x2="294.64" y2="-182.88" width="0.1524" layer="91"/>
+<junction x="294.64" y="-185.42"/>
+<wire x1="302.26" y1="-167.64" x2="302.26" y2="-195.58" width="0.1524" layer="91"/>
+<pinref part="X_8" gate="G$1" pin="0"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -3429,55 +3473,6 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <pinref part="IC4" gate="G$1" pin="P2[1]_(GPIO)"/>
 <wire x1="50.8" y1="-22.86" x2="50.8" y2="-15.24" width="0.1524" layer="91"/>
 <label x="50.8" y="-15.24" size="1.778" layer="95" rot="R90"/>
-</segment>
-</net>
-<net name="N$7" class="0">
-<segment>
-<pinref part="IC3" gate="G$1" pin="AGND_3"/>
-<pinref part="IC3" gate="G$1" pin="AGND_4"/>
-<wire x1="294.64" y1="-167.64" x2="294.64" y2="-170.18" width="0.1524" layer="91"/>
-<wire x1="294.64" y1="-167.64" x2="302.26" y2="-167.64" width="0.1524" layer="91"/>
-<junction x="294.64" y="-167.64"/>
-<pinref part="IC3" gate="G$1" pin="AGND_9"/>
-<wire x1="294.64" y1="-182.88" x2="294.64" y2="-180.34" width="0.1524" layer="91"/>
-<junction x="294.64" y="-170.18"/>
-<pinref part="IC3" gate="G$1" pin="AGND_5"/>
-<wire x1="294.64" y1="-180.34" x2="294.64" y2="-177.8" width="0.1524" layer="91"/>
-<wire x1="294.64" y1="-177.8" x2="294.64" y2="-175.26" width="0.1524" layer="91"/>
-<wire x1="294.64" y1="-175.26" x2="294.64" y2="-172.72" width="0.1524" layer="91"/>
-<wire x1="294.64" y1="-172.72" x2="294.64" y2="-170.18" width="0.1524" layer="91"/>
-<junction x="294.64" y="-172.72"/>
-<pinref part="IC3" gate="G$1" pin="AGND_6"/>
-<junction x="294.64" y="-175.26"/>
-<pinref part="IC3" gate="G$1" pin="AGND_7"/>
-<junction x="294.64" y="-177.8"/>
-<pinref part="IC3" gate="G$1" pin="AGND_8"/>
-<junction x="294.64" y="-180.34"/>
-<pinref part="IC3" gate="G$1" pin="AGND_11"/>
-<wire x1="294.64" y1="-187.96" x2="294.64" y2="-185.42" width="0.1524" layer="91"/>
-<junction x="294.64" y="-182.88"/>
-<pinref part="IC3" gate="G$1" pin="AGND_10"/>
-<wire x1="294.64" y1="-185.42" x2="294.64" y2="-182.88" width="0.1524" layer="91"/>
-<junction x="294.64" y="-185.42"/>
-<wire x1="302.26" y1="-167.64" x2="302.26" y2="-195.58" width="0.1524" layer="91"/>
-<pinref part="X_8" gate="G$1" pin="0"/>
-</segment>
-</net>
-<net name="N$12" class="0">
-<segment>
-<pinref part="IC3" gate="G$1" pin="PGND_1"/>
-<pinref part="IC3" gate="G$1" pin="PGND_4"/>
-<wire x1="259.08" y1="-182.88" x2="259.08" y2="-185.42" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="G$1" pin="PGND_2"/>
-<wire x1="259.08" y1="-185.42" x2="259.08" y2="-187.96" width="0.1524" layer="91"/>
-<junction x="259.08" y="-185.42"/>
-<pinref part="IC3" gate="G$1" pin="PGND_3"/>
-<wire x1="259.08" y1="-187.96" x2="259.08" y2="-190.5" width="0.1524" layer="91"/>
-<junction x="259.08" y="-187.96"/>
-<wire x1="259.08" y1="-185.42" x2="254" y2="-185.42" width="0.1524" layer="91"/>
-<wire x1="254" y1="-185.42" x2="254" y2="-193.04" width="0.1524" layer="91"/>
-<pinref part="X_10" gate="G$1" pin="0"/>
-<wire x1="254" y1="-200.66" x2="254" y2="-193.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$18" class="0">
